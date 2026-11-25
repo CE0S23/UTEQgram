@@ -1,0 +1,16 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "post": {
+      ".read": true,
+      "$postId": {
+        ".write": "!data.exists() && newData.exists()",
+        ".validate": "newData.hasChildren(['id', 'title', 'location', 'image'])",
+        "title": { ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 100" },
+        "location": { ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 100" },
+        "image": { ".validate": "newData.isString() && newData.val().length <= 500" }
+      }
+    }
+  }
+}

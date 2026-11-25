@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+
+# Vercel (vinculación local del proyecto)
+.vercel/
+
+# Archivos generados por herramientas de pruebas
+.playwright-mcp/
+
+# Material de la evaluación anterior (incluye perfiles de navegador)
+_evaluacion1_build/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*.docx

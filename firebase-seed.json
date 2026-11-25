@@ -1,0 +1,10 @@
+{
+  "post": {
+    "first-post": {
+      "id": "first-post",
+      "title": "Hermoso viaje a SF",
+      "location": "En San Francisco",
+      "image": "https://ytrmgrcvcucwimdbjrcy.supabase.co/storage/v1/object/public/post-images/main-image.jpg"
+    }
+  }
+}
